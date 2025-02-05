@@ -32,7 +32,7 @@
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-    text-align: left;
+    text-align: right;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -52,6 +52,7 @@
 
   .hero-cta {
     display: flex;
+    justify-content: flex-end;
 
     @include respond(tab-port) {
       justify-content: center;
